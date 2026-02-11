@@ -28,12 +28,12 @@
         <div class="flex items-center justify-between py-5 px-10">
           <!-- nav  logo -->
           <div>
-            <h2 class="text-2xl font-extrabold">Tea House</h2>
+            <img src="./images/cup.png" alt="" class="w-10" />
           </div>
           <!-- nav link -->
           <div class="hidden md:block">
             <ul class="flex gap-5 text-xl font-medium">
-              <li><a href="#">Home</a></li>
+              <li><a href="#hero-section">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Food's</a></li>
               <li><a href="#">Contact US</a></li>
@@ -47,9 +47,9 @@
       </section>
 
       <!-- banner section -->
-      <section>
+      <section id="hero-section">
         <div
-          class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center container mx-auto mb-16 md:mb-20 lg:mb-24"
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center container mx-auto mb-16 md:mb-20 lg:mb-24 p-2"
         >
           <!-- left -->
           <div class="space-y-8">
@@ -93,7 +93,7 @@
       <section>
         <div>
           <!-- Our Featured section -->
-          <header class="container mx-auto mb-16 md:mb-20 lg:mb-24">
+          <header class="container mx-auto mb-16 md:mb-20 lg:mb-24 p-2">
             <div class="flex flex-col items-center justify-center">
               <!-- header text -->
               <header
@@ -114,7 +114,7 @@
               >
                 <!-- card 1 -->
                 <div
-                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4]"
+                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4] transition duration-500 hover:scale-110"
                 >
                   <img src="./images/tea-1.png" alt="" />
                   <h2 class="text-2xl font-extrabold">Milk Tea</h2>
@@ -122,7 +122,7 @@
                 </div>
                 <!-- card 2 -->
                 <div
-                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4]"
+                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4] transition duration-500 hover:scale-110"
                 >
                   <img src="./images/tea-2.png" alt="" />
                   <h2 class="text-2xl font-extrabold">Black Tea</h2>
@@ -130,7 +130,7 @@
                 </div>
                 <!-- card 3 -->
                 <div
-                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4]"
+                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4] transition duration-500 hover:scale-110"
                 >
                   <img src="./images/tea-3.png" alt="" />
                   <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
@@ -138,7 +138,7 @@
                 </div>
                 <!-- card 4 -->
                 <div
-                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4]"
+                  class="space-y-3 flex flex-col items-center text-center p-8 rounded-md bg-linear-to-t from-[#f4f4f4] to-[#F4F4F4] transition duration-500 hover:scale-110"
                 >
                   <img src="./images/tea-4.png" alt="" />
                   <h2 class="text-2xl font-extrabold">Green Tea</h2>
@@ -150,7 +150,7 @@
 
           <!-- Great Tea section -->
           <div
-            class="container mx-auto grid gap-16 mb-16 md:mb-20 lg:mb-24 grid-cols-1 lg:grid-cols-2"
+            class="container mx-auto grid gap-16 mb-16 md:mb-20 lg:mb-24 grid-cols-1 lg:grid-cols-2 p-2"
           >
             <!-- left  -->
             <div class="grid grid-cols-2 grid-rows-3 gap-5">
@@ -178,7 +178,9 @@
             <!-- right -->
             <div class="flex items-center justify-center">
               <div class="space-y-8 inline-block">
-                <h2 class="text-5xl font-extrabold leading-15">
+                <h2
+                  class="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-15"
+                >
                   Great Tea, Freshly <br />
                   Presented
                 </h2>
@@ -212,7 +214,9 @@
           class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 md:mb-20 lg:mb-24 p-8 sm:p-16 md:p-20 bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-md"
         >
           <!-- left -->
-          <div class="grid items-center">
+          <div
+            class="grid items-center bg-[url(./images/bg_cup.png)] bg-cover bg-right bg-no-repeat h-96"
+          >
             <div class="max-w-110 space-y-5">
               <h2 class="text-5xl font-extrabold leading-16 text-[#f4f4f4]">
                 Meet Our Super Clients
@@ -316,7 +320,7 @@
             >
               <!-- card 1 -->
               <div
-                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md bg"
+                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md transition duration-500 hover:scale-110"
               >
                 <img src="./images/news-1.png" alt="" class="w-full md:w-fit" />
                 <div class="space-y-1 w">
@@ -334,7 +338,7 @@
 
               <!-- card 2 -->
               <div
-                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md bg"
+                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md transition duration-500 hover:scale-110"
               >
                 <img src="./images/news-2.png" alt="" class="w-full md:w-fit" />
                 <div class="space-y-1 w">
@@ -352,7 +356,7 @@
 
               <!-- card 3 -->
               <div
-                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md bg"
+                class="space-y-3 border border-[#D2D2D2] w-full md:max-w-87 p-5 rounded-md transition duration-500 hover:scale-110"
               >
                 <img src="./images/news-3.png" alt="" class="w-full md:w-fit" />
                 <div class="space-y-1 w">
@@ -376,7 +380,7 @@
     <footer>
       <section>
         <!-- footer section -->
-        <div class="bg-amber-400">
+        <div class="bg-linear-to-r from-[#ff00001d] to-[#ff88382e]">
           <div class="container mx-auto py-32 p-2">
             <div
               class="flex flex-col md:flex-row gap-5 items-start sm:items-center justify-center md:justify-between pb-16"
@@ -400,7 +404,7 @@
               <div class="space-y-4">
                 <h2 class="text-xl font-semibold">Quick Links</h2>
                 <ul class="text-[#494949]">
-                  <li><a href="#">Home</a></li>
+                  <li><a href="#hero-section">Home</a></li>
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Insurance</a></li>
                   <li><a href="#">Privacy Policy</a></li>
@@ -432,7 +436,7 @@
                 <h2 class="text-2xl font-semibold max-w-54">
                   Subscribe to our newsletter
                 </h2>
-                <div class="flex border-b max-w-76 py-3">
+                <div class="flex justify-between border-b max-w-76 py-3">
                   <input
                     type="email"
                     name=""
