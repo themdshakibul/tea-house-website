@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./src/input.css" rel="stylesheet" />
+    <!-- <link href="./src/input.css" rel="stylesheet" /> -->
     <link href="./src/output.css" rel="stylesheet" />
 
     <!-- icon -->
@@ -21,10 +21,49 @@
     <!-- title -->
     <title>Tea House Website</title>
   </head>
-  <body>
+  <body class="font-manrope">
     <!-- navbar section -->
     <nav>
-      <header></header>
+      <section>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center container mx-auto"
+        >
+          <!-- left -->
+          <div class="space-y-8">
+            <h2 class="text-4xl md:text-6xl lg:text-[80px] font-extrabold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h2>
+            <p>
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
+            </p>
+            <button
+              class="flex gap-3 items-center text-white font-semibold rounded-md py-3 px-5 bg-linear-to-r from-[#FF0000] to-[#FF8938]"
+            >
+              Explore More
+              <span class="-rotate-32"
+                ><i class="ri-arrow-right-long-line"></i
+              ></span>
+            </button>
+          </div>
+          <!-- right -->
+          <div class="flex items-end justify-end relative">
+            <img src="./images/banner.png" alt="" />
+            <!-- rating  -->
+            <div
+              class="flex bg-white rounded-md shadow-2xl items-center justify-center gap-4 p-5 text-black md:w-68 absolute bottom-[3%] right-[42%]"
+            >
+              <img class="w-fit" src="./images/icon/rating-banner.png" alt="" />
+              <div>
+                <h2 class="text-2xl sm:text-3xl font-extrabold">5.00</h2>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </nav>
 
     <main>
